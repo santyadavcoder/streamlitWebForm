@@ -1,0 +1,9 @@
+CREATE DATABASE resume_db;
+USE resume_db;
+
+CREATE TABLE resumes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    resume LONGBLOB NOT NULL
+);
